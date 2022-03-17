@@ -5,7 +5,7 @@ import "./resultHeader.css"
 
 const ResultHeader = () => {
   return (
-    <div className="resultHeader">
+    <div className="result-header">
       <NavLink to="/">
         <div className="result-logo">
           <img src="./img/tesodevlogosmall.png" alt="tesodev" />
