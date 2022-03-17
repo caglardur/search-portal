@@ -1,0 +1,16 @@
+.result-more {
+  width: auto;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.result-more-frame {
+  min-height: 560px;
+}
+
+@media only screen and (max-width: 760px) {
+  .result-more {
+    width: 100%;
+    margin: 20px 5px;
+  }
+}

@@ -1,0 +1,46 @@
+.mainHeader {
+  width: 100%;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 278px;
+  height: 115px;
+  margin-right: 70px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-text {
+  width: 278px;
+  text-align: right;
+  padding: 10px 20px;
+  font-size: medium;
+  color: #484848;
+}
+
+@media only screen and (max-width: 700px) {
+  .logo img {
+    width: auto;
+    margin: 0px;
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 294px) {
+  .logo img {
+    width: 90%;
+    height: auto;
+    margin: 0px;
+  }
+  .title-text {
+    font-size: smaller;
+  }
+}
